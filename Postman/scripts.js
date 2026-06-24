@@ -18,4 +18,4 @@ pm.test("Body matches string", function () {
 const jsonData = pm.response.json();
 pm.collectionVariables.set('review_id', jsonData.review_id); 
 // Для post-запроса "Positive POST". Значение созданной переменной review_id 
-// будет использоваться в дальнейших запросах get, patch, и delete
+// будет использоваться в эндпоинтах дальнейших запросов get, patch, и delete
