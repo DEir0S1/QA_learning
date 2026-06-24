@@ -35,7 +35,7 @@
   - Страница авторизации открыта в браузере 
   - Поля `Username` и `Password` пустые
 
-![test_1](images/test_case_1.png)
+![test_1](../images/test_case_1.png)
 
 - **Шаги:**  
   1. Не заполняя поля `Username` и `Password`, нажать кнопку `Login` 
